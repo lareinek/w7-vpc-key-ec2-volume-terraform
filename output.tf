@@ -1,5 +1,5 @@
 output "pubblic-ip" {
-    value = aws_instance.server.public_dns
+  value = aws_instance.server.public_dns
 }
 
 output "vpc_id" {
